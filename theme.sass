@@ -29,7 +29,7 @@ $heading-font-family: 'Dosis', helvetica neue, sans-serif
 $default-font-family: 'freight-sans-pro', 'Open Sans', helvetica neue, sans-serif
 $mono-font-family:    'ubuntu-mono', monospace
 $default-font-size:   16px
-$default-font-color:  map-get($gray, darkest)
+$default-font-color:  rgba(0, 0, 0, 0.7)
 $default-line-height: 1.6rem
 
 // --------------------------
@@ -78,34 +78,42 @@ pre
 =heading-xxl
   +heading-xxl-default
   @content
+  font-weight: 400
 
 =heading-xl
   +heading-xl-default
   @content
+  font-weight: 400
 
 =heading-lg
   +heading-lg-default
   @content
+  font-weight: 400
 
 =heading-md
   +heading-md-default
   @content
+  font-weight: 400
 
 =heading-rg
   +heading-rg-default
   @content
+  font-weight: 400
 
 =heading-sm
   +heading-sm-default
   @content
+  font-weight: 400
 
 =heading-xs
   +heading-xs-default
   @content
+  font-weight: 400
 
 =heading-xxs
   +heading-xxs-default
   @content
+  font-weight: 300
 
 h1, h2, h3, h4, h5, h6
   font-family: $heading-font-family
